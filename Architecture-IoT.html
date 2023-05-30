@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/Cards.css">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+  <title>Technologies IoT</title>
+  <style>
+     .Image {
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .Image img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    body {
+      background-color: #222;
+      color: #fff;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+      color: #694f4f;
+    }
+
+    .bg-dark {
+      background-color: #333 !important;
+    }
+
+    .container-fluid {
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    @media (min-width: 576px) {
+      .container {
+        max-width: 540px;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        max-width: 720px;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .container {
+        max-width: 960px;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .container {
+        max-width: 1140px;
+      }
+    }
+    
+    .card {
+      background-color: #333;
+      border: none;
+      padding: 20px;
+      margin-top: 20px;
+      color: #fff;
+      flex-basis: calc(50% - 20px);
+      box-sizing: border-box; 
+    }
+    
+    .card p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 0;
+    }
+    
+    .image-card-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 20px;
+    }
+    
+    .image-card-container img {
+      max-width: 400px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="m-4">
+      <div class="logos-div">
+        <div class="logos-2">
+          <img class="logo-2" src="Images/Logos/Logo-IoT2.png">
+        </div>
+        <div class="logos-1">
+          <img class="logo-1" src="Images/Logos/Logo-IoT.png">
+        </div>
+        <div class="logos-3">
+          <img class="logo-3" src="Images/Logos/Logo-IoT3.png">
+        </div>
+        <div class="logos-4">
+          <img class="logo-4" src="Images/Logos/Logo-IoT4.png">
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-SM navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+              <a href="index.html" class="nav-item nav-link active">Accueil</a>
+              <a href="Intro-IoT.html" class="nav-item nav-link">Introduction à l'IoT</a>
+              <a href="Tech-IoT.html" class="nav-item nav-link">Technologies IoT</a>
+              <a href="Architecture-IoT.html" class="nav-item nav-link">Architecture IoT</a>
+              <a href="Sante-ioT.html" class="nav-item nav-link">IoT dans la santé</a>
+              <a href="Futur-IoT.html" class="nav-item nav-link">Le futur des IoT</a>
+              <a href="FAQ.html" class="nav-item nav-link">FAQ</a>
+              <a href="Liens-D'interets.html" class="nav-item nav-link">Liens d'intérêts</a>
+              <a href="Contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+    <section>
+      <div class="Image">
+        <img src="Images/Web-Content.nosync/IoT-Archi/image1.png" alt="">
+      </div>
+      <div class="image-card-container">
+        <div class="card">
+          <p class="content"> 
+            L'architecture IoT se compose de quatre couches principales : la couche des capteurs, la couche de communication, la couche de traitement des données et la couche d'application.
+          </p>
+        </div>
+        <div class="card">
+          <p class="content"> 
+            La couche des capteurs est la couche la plus basse de l'architecture IoT et comprend les capteurs et les dispositifs qui collectent les données.
+          </p>
+        </div>
+        <div class="card">
+          <p class="content"> 
+            La couche de communication est responsable de la transmission des données entre les capteurs et les systèmes informatiques qui les analysent. Cette couche peut utiliser des réseaux sans fil tels que le Wi-Fi, le Bluetooth ou le Zigbee.
+          </p>
+        </div>
+        <div class="card">
+          <p class="content"> 
+            La couche de traitement des données est responsable de l'analyse et de la transformation des données collectées par les capteurs. Cette couche utilise des technologies telles que l'IA et le cloud computing pour analyser les données et prendre des décisions.
+          </p>
+        </div>
+        <div class="card">
+          <p class="content"> 
+            La couche d'application est la couche supérieure de l'architecture IoT et comprend les applications et les systèmes informatiques qui utilisent les données collectées par les capteurs et les dispositifs.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="footer-div">
+      <div class="my-5">
+        <footer class="bg-dark text-center text-white fixed-bottom">
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            Internet des Objets (IoT) © 2020 <a href="Plansite.html">Plan de site</a>
+          </div>
+        </footer>
+      </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

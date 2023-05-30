@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Contact</title>
+  <style>
+body {
+  color: #ffffff;
+  background: #000000;
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+}
+
+.contact-header {
+  font-size: 42px;
+  border-bottom: 1px dotted #ccc;
+  padding: 24px;
+}
+
+.contact-content {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.contact-info {
+  flex: 0 0 300px;
+  margin-right: 20px;
+}
+
+.contact-info h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.contact-form {
+  flex: 1 1 300px;
+}
+
+.contact-form h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background: #0069d9;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #0056b3;
+}
+
+.social-media-links {
+  margin-top: 16px;
+}
+
+.social-media-links a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.social-media-links a:hover {
+  color: #cccccc;
+}
+
+    body {
+      background-color: #222;
+      color: #fff;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+      color: #694f4f;
+    }
+
+    .bg-dark {
+      background-color: #333 !important;
+    }
+
+
+    .container-fluid {
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    @media (min-width: 576px) {
+      .container {
+        max-width: 540px;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        max-width: 720px;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .container {
+        max-width: 960px;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .container {
+        max-width: 1140px;
+      }
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="m-4">
+      <div class="logos-div">
+        <div class="logos-2">
+          <img class="logo-2" src="Images/Logos/Logo-IoT2.png">
+        </div>
+        <div class="logos-1">
+          <img class="logo-1" src="Images/Logos/Logo-IoT.png">
+        </div>
+        <div class="logos-3">
+          <img class="logo-3" src="Images/Logos/Logo-IoT3.png">
+        </div>
+        <div class="logos-4">
+          <img class="logo-4" src="Images/Logos/Logo-IoT4.png">
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-SM navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+              <a href="index.html" class="nav-item nav-link active">Accueil</a>
+              <a href="Intro-IoT.html" class="nav-item nav-link">Introduction à l'IoT</a>
+              <a href="Tech-IoT.html" class="nav-item nav-link">Technologies IoT</a>
+              <a href="Architecture-IoT.html" class="nav-item nav-link">Architecture IoT</a>
+              <a href="Sante-ioT.html" class="nav-item nav-link">IoT dans la santé</a>
+              <a href="Futur-IoT.html" class="nav-item nav-link">Le futur des IoT</a>
+              <a href="FAQ.html" class="nav-item nav-link">FAQ</a>
+              <a href="Liens-D'interets.html" class="nav-item nav-link">Liens d'intérêts</a>
+              <a href="Contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+<section>
+  <div class="contact-header">Contact</div>
+
+  <div class="contact-content">
+    <div class="contact-info">
+      <h2>Coordonnées</h2>
+      <p>Email: contact@example.com</p>
+      <p>Téléphone: +1 123 456 7890</p>
+      <div class="social-media-links">
+        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+        <a href="https://www.twitter.com/" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <h2>Formulaire de contact</h2>
+      <form action="contact.php" method="post">
+        <input type="text" name="name" placeholder="Votre nom" required>
+        <input type="email" name="email" placeholder="Votre email" required>
+        <textarea name="message" placeholder="Votre message" required></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+    </div>
+  </div>
+  <div class="footer-div">
+    <div class="my-5">
+      <footer class="bg-dark text-center text-white fixed-bottom">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          Internet des Objets (IoT) © 2020 <a href="Plansite.html">Plan de site</a>
+        </div>
+      </footer>
+    </div>
+  </div>
+</section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
